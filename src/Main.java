@@ -122,7 +122,7 @@ public class Main {
                 newSalaryKristina ,
                 differenceSalaryKristina  );
 ;
-        System.out.printf("Ne gotoviy rezultal");
+        System.out.printf("Ne gotoviy rezultal111");
 
 
 
