@@ -121,7 +121,8 @@ public class Main {
         System.out.printf("Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей%n",
                 newSalaryKristina ,
                 differenceSalaryKristina  );
-; Ne gotoviy rezultal
+;
+        System.out.printf("Ne gotoviy rezultal");
 
 
 
