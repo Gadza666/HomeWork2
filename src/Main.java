@@ -56,8 +56,8 @@ public class Main {
         double whiteCanAmount = whiteCanAmountPerClass * amountOfClass;
         double brownCanAmount = brownCanAmountPerClass * amountOfClass;
         System.out.printf("В школе, где %s классов, нужно %s банок белой краски и %s банок коричневой краски", amountOfClass , whiteCanAmount , brownCanAmount );
-
         System.out.println(" Task 6" );
+        
         int BananesAmount = 5;
         int MilkAmount = 200;
         int IceCreamAmount = 2;
@@ -109,20 +109,20 @@ public class Main {
         double yearNewSalaryKristina = newSalaryKristina * 12;
 
         double differenceSalaryMasha = yearNewSalaryMasha - yearSalaryMasha;
-        double differenceSalaryDenis = yearSalaryDenis - yearNewSalaryDenis;
-        double differenceSalaryKristina = yearSalaryKristina - yearNewSalaryKristina;
+        double differenceSalaryDenis = yearNewSalaryDenis - yearSalaryDenis;
+        double differenceSalaryKristina = yearNewSalaryKristina - yearSalaryKristina;
 
         System.out.printf("Маша теперь получает %s рублей. Годовой доход вырос на %s рублей %n",
                 newSalaryMasha ,
                 differenceSalaryMasha  );
-        System.out.printf("Денис теперь получает %s рублей. Годовой доход вырос на %s рублей%n",
+        System.out.printf("Денис теперь получает %.1f рублей. Годовой доход вырос на %.1f рублей%n",
                 newSalaryDenis ,
                 differenceSalaryDenis  );
         System.out.printf("Кристина теперь получает %s рублей. Годовой доход вырос на %s рублей%n",
                 newSalaryKristina ,
                 differenceSalaryKristina  );
 ;
-        System.out.printf("Ne gotoviy rezultal111");
+
 
 
 
